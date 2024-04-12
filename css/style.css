@@ -137,7 +137,6 @@ body {
 .about-section .container {
   display: flex;
   margin-top: 94px;
-  margin-bottom: 94px;
   padding-left: 215px;
   padding-right: 215px;
 }
@@ -171,7 +170,18 @@ body {
   font-weight: 700;
   line-height: 42px;
   text-align: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
+.what-we-do .container {
+  display: flex;
+  align-items: center;
+}
+.what-we-do__exemple-img .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .h2 {
   color: var(--black);
 }
@@ -182,11 +192,16 @@ body {
   background-color: var(--light-grey);
   font-family: var(--primary-font);
 }
+.team .container {
+  display: flex;
+}
 .team h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
   text-align: center;
+  margin-top: 90px;
+  margin-bottom: 50px;
 }
 .h5 {
   color: var(--black);
@@ -194,6 +209,12 @@ body {
   font-weight: 500;
   line-height: 18px;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.h5 .container {
+  display: flex;
+  align-items: center;
 }
 .p {
   color: var(--light-black);
@@ -201,6 +222,8 @@ body {
   font-weight: 400;
   line-height: 18px;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 /*Footer section style*/
