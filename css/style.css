@@ -30,6 +30,12 @@ body {
 
 .header {
   font-family: var(--primary-font);
+  margin-bottom: 80px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header__name a {
   font-family: Raleway;
@@ -38,8 +44,13 @@ body {
   line-height: 30px;
   text-align: left;
   text-decoration: none;
+  align-items: center;
 }
-
+.header__navigation ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
 .header__name span {
   color: var(--blue);
 }
@@ -77,12 +88,20 @@ body {
 .header__info li {
   list-style: none;
 }
+.header__info {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
 
 /*Hero section style */
 
 .hero-section {
   background-color: var(--black);
   text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .hero-section__title h1 {
@@ -92,8 +111,8 @@ body {
   line-height: 60px;
   text-align: center;
   color: var(--white);
+  margin-bottom: 30px;
 }
-
 .button-blue {
   font-family: var(--primary-font);
   font-size: 16px;
@@ -101,6 +120,8 @@ body {
   line-height: 30px;
   color: var(--white);
   background-color: var(--blue);
+  margin-top: 30px;
+  border-radius: 4px;
 }
 .button-blue:hover {
   background-color: transparent;
@@ -111,6 +132,18 @@ body {
 .about-section {
   font-family: var(--primary-font);
   background-color: var(--white);
+  margin-top: 94px;
+}
+.about-section .container {
+  display: flex;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+.about-section ul {
+  display: flex;
+  gap: 30px;
 }
 .about-section ul {
   list-style: none;
@@ -310,4 +343,10 @@ body {
 }
 .portfolio-footer__info:hover {
   color: var(--blue);
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
