@@ -8,7 +8,6 @@
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
 }
-
 /*Index html style */
 body {
   font-family: var(--primary-font);
@@ -150,7 +149,6 @@ body {
   color: var(--light-black);
   margin-bottom: 94px;
 }
-
 /*What we do section style*/
 h2 {
   font-family: inherit;
@@ -192,7 +190,6 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--black);
 }
-
 /*Footer section style*/
 .footer-section {
   padding: 60px 0;
@@ -203,7 +200,7 @@ h2 {
 .address p {
   letter-spacing: 0.03rem;
 }
-.address-list {
+.address-info {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -212,7 +209,7 @@ h2 {
   margin-bottom: 30px;
   letter-spacing: 0.03em;
 }
-.address-list__links {
+.address-info__links {
   font-family: inherit;
   font-size: 14px;
   font-weight: 400;
@@ -220,12 +217,12 @@ h2 {
   color: var(--white);
   text-decoration: none;
 }
-.address-list__links:hover,
-.address-list__links:focus {
+.address-info__links:hover,
+.address-info__links:focus {
   text-decoration: underline;
   color: var(--blue);
 }
-.footer-section .logo-link {
+.logo-link p {
   color: var(--white);
 }
 
