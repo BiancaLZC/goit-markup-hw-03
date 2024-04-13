@@ -15,23 +15,26 @@
  <body>
     <!--Header Section-->
 <header class="header">
+   <section class="header-section">
       <div  class="container">
       <div class="header__name">
-      <a href="#"><p><span>Web</span>Studio</p></a>
+      <a href="#" class="logo-link"><p><span class="span">Web</span>Studio</p></a>
       </div>
-       <nav class="header__navigation">
-        <ul>
-          <li><a href="index.html">Studio</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+       <nav class="nav-bar">
+        <ul class="header__navigation">
+          <li><a href="index.html" class="nav-link">Studio</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li><a href="#" class="nav-link">Contacts</a></li>
         </ul>
       </nav>
       <ul class="header__info">
-         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-         <li><a href="tel:+1212-772-4150"> +1212-772-4150</a></li>
+         <li><a href="mailto:info@devstudio.com" class="header__info-link">info@devstudio.com</a></li>
+         <li><a href="tel:+1212-772-4150" class="header__info-link"> +1212-772-4150</a></li>
       </ul>
       </div>
+      </section>
       </header>
+
     <!--Main Section-->
     <main>
       <!--Hero Section-->
@@ -39,48 +42,46 @@
          <div class="container">
          <div class="hero-section__title">
             <h1 >EFFECTIVE SOLUTIONS FOR<br>YOUR BUSINESS</h1>
-            <button class="hero-section__request-service button-blue" type="button">Request our service</button>
+            <button class="hero-section__btn" type="button">Request our service</button>
             </div>
             </div>
       </section>
 
       <!--About Section-->
-      <section class="about-section">
+      <section class="section">
          <div  class="container">
-         <ul class="about-section__requirements">
+         <ul class="about-section">
             <li>
-               <h5>ATTENTION TO DETAILS</h5>
-               <p>We go into all the details and processes<br> of your business to
-                   develop a<br> customized solution.</p>
+               <h3>ATTENTION TO DETAILS</h3>
+               <p>We go into all the details and processes of your business to
+                   develop a customized solution.</p>
             </li>
             <li>
-               <h5>PUNCTUALITY</h5>
-               <p>With us, you can feel safe and secure.<br> An important principle of
-                   the company:<br> respect your time and deadlines.</p>
+               <h3>PUNCTUALITY</h3>
+               <p>With us, you can feel safe and secure. An important principle of
+                   the company respect your time and deadlines.</p>
             </li>
             <li>
-               <h5>PLANNING</h5>
-               <p>You will be able to observe and<br> participate in every phase of
-                   solution<br> development and implementation.</p>
+               <h3>PLANNING</h3>
+               <p>You will be able to observe and participate in every phase of
+                   solution development and implementation.</p>
             </li>
             <li>
-               <h5>MODERN TECHNOLOGIES</h5>
-               <p>We use innovative tools to solve<br> assigned tasks. It's time to 
-                  simplify work<br> processes.</p>
+               <h3>MODERN TECHNOLOGIES</h3>
+               <p>We use innovative tools to solve assigned tasks. It's time to 
+                  simplify work processes.</p>
             </li>
          </ul>  
-            </div>
-         </section> 
 
          <!--What we do Section-->
-         <section class="what-we-do">
-            <div  class="container">
+            <div>
                <h2>What we do</h2>
+            </div>
          <!--Div cu imagini-->
-         <div class="what-we-do__exemple-img">
-            <img src="./images/box-1.jpg" alt="laptop img" width="100"/>
-            <img src="./images/box-2.jpg" alt="phone img" width="100"/>
-            <img src="./images/box-3.jpg" alt="laptop img" width="100"/>
+         <div class="what-we-do__img">
+            <img src="./images/box-1.jpg" alt="laptop img" width="370"/>
+            <img src="./images/box-2.jpg" alt="phone img" width="370"/>
+            <img src="./images/box-3.jpg" alt="laptop img" width="370"/>
          </div>
          </div>
          </section>
@@ -91,28 +92,28 @@
                <h2>Our Team</h2> 
             <!--Container  cu imagini despre echipa-->
               <!--Container 1-->
-              <div class="team__img">
-            <div>
-               <img src="./images/img-2.jpg" alt="Christopher Walker img" width="100" />
-               <h5>Christopher Walker</h5>
+              <div class="team__items">
+            <div class="team__item">
+               <img src="./images/img-2.jpg" alt="Christopher Walker img" width="270" />
+               <h3>Christopher Walker</h3>
                <p>Product Designer</p>
             </div>
             <!--Container 2-->
              <div>
-               <img src="./images/img-3.jpg" alt="Kylie Evans img"  width="100" />
-               <h5>Kylie Evans</h5>
+               <img src="./images/img-3.jpg" alt="Kylie Evans img"  width="270" />
+               <h3>Kylie Evans</h3>
                <p>Frontend Developer</p>
             </div>
             <!--Container 3-->
             <div>
-               <img src="./images/img-4.jpg" alt="Ryan Harris img"  width="100"/>
-               <h5>Ryan Harris</h5>
+               <img src="./images/img-4.jpg" alt="Ryan Harris img"  width="270"/>
+               <h3>Ryan Harris</h3>
                <p>Marketing</p>
                </div>
             <!--Container 4-->
                <div>
-                  <img src="./images/img-5.jpg" alt="Tyler Moore img" width="100" />
-               <h5>Tyler Moore</h5>
+                  <img src="./images/img-5.jpg" alt="Tyler Moore img" width="270" />
+               <h3>Tyler Moore</h3>
                <p>UI Designer</p>
                </div>
                </div>
@@ -120,16 +121,27 @@
                </section>
       </main>
             <!--Footer Section-->
-         <footer class="footer-section">
+      <footer>
+         <section class="footer-section" id="contact">
             <div class="container">
-            <!--Info Section-->
-               <a href="#"><p><span>Web</span>Studio</p></a>
-            <address class="footer-section__info">
-             695 Park Ave, NY 10065, USA<br>
-             info@devstudio.com<br>
-             +1212-772-4150
-            </address>
+               <div class="logo">
+                  <a href="#webStudio" class="logo-link">
+                     <p class="studio"><span class="span">Web</span>Studio</p>
+                  </a>
+               </div>
+               <address class="address">
+                  <p>695 Park Ave, NY 10065, USA</p>
+                  <ul class="address-list">
+                     <li>
+                        <a href="mailto:info@devstudio.com" class="address-list__links">info@devstudio.com</a>
+                     </li>
+                     <li>
+                        <a href="tel:+1212-772-4150" class="address-list__links">+1 212-772-4150</a>
+                     </li>
+                  </ul>
+               </address>
             </div>
-         </footer>
+         </section>
+      </footer>
  </body>
  </html>
