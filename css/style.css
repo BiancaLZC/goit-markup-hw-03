@@ -175,6 +175,10 @@ h2 {
   gap: 30px;
   border-radius: 0px 0px 4px 4px;
 }
+.team__items {
+  margin-top: 186px;
+  margin-bottom: 94px;
+}
 .team__item h3 {
   text-align: center;
   margin-top: 30px;
